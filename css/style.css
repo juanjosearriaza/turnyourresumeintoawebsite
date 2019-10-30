@@ -28,22 +28,17 @@ body {
   background-color: none;
 }
 
-li  {
-  text-align: left;
-  font-family: roboto;
-  color: black;
-  font-size: 15px;
-  line-height: 1.5;
-  background-color: white
-  }
-p {
-  text-align: left;
-  font-family: roboto;
-  color: black;
-  font-size: 15px;
-  line-height: 1.5;
-  background-color: white
-  }
+article {
+  
+    text-align: left;
+    font-family: roboto;
+    color: black;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: white
+    
+}
+
 #part-a {
   grid-area: a;
   margin-left: 20px;
@@ -143,13 +138,11 @@ footer {
 h1{
   font-size: 25px;
   font-weight: lighter;
-  background-color: white;
-}
+  }
 h2 {
   font-size: 15px;
   font-weight: lighter;
-  background-color: white;
-}
+  }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .container {
     width: 100%;
